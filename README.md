@@ -20,8 +20,7 @@ Create Virtual Environment & Activate bash Copy Edit python -m venv agent agent\
 
 ▶️ Option 2: Run CLI Tool bash Copy Edit python main.py You’ll be prompted to enter a topic or a URL. The agents will run and generate a summary.
 
-📦 Project Structure
-deep-research-agent/
+Deep-research-agent/
 │
 ├── agents/
 │   ├── research_agent.py      # Builds the web research agent
@@ -31,6 +30,7 @@ deep-research-agent/
 ├── main.py                    # CLI interface
 ├── graph_runner.py            # LangGraph setup and pipeline
 ├── .env                       # API keys and secrets
+└── requirements.txt           # Python dependencies
 └── requirements.txt           # Python dependencies
 
 🧪 Technologies Used 🛠️ LangChain
